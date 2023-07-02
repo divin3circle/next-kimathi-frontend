@@ -13,7 +13,7 @@ const Search = () => {
             <div className="hidden md:block text-sm font-semibold px-6 border-x-[1px] flex-1 text-center">
               Any week
               </div> 
-              < div className="text-sm pl-6 pr-2 text-gray-600 flex flex-row items-center gap-3">
+              < div className="text-sm pl-6 pr-2 text-teal flex flex-row items-center gap-3">
                <div className="hidden sm:block" >Add Tenants</div>
                <div className="p-2 bg-teal rounded-full text-white">
                 <BiSearch size={18}/>
