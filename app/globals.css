@@ -9,3 +9,10 @@ html, body, :root{
 body{
     background-color: #222831;
 }
+
+.leaflet-bottom, 
+.leaflet-top,
+.leaflet-control,
+.leaflet-pane{
+    z-index: 0 !important;
+}

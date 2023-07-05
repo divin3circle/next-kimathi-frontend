@@ -8,6 +8,7 @@ import { useRouter } from "next/navigation";
 
   return (
     <Image
+    onClick={() => router.push('/')}
       alt="logo"
       className="hidden md:block cursor-pointer"
       height={100}
